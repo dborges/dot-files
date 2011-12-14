@@ -93,9 +93,9 @@ $#
 	#
 
 # File marks:
-'0  43  0  ~/.vimrc
-'1  37  0  ~/.vimrc
-'2  1  9  ~/.vimrc
+'0  1  0  ~/.vimrc
+'1  43  0  ~/.vimrc
+'2  37  0  ~/.vimrc
 '3  35  0  ~/.vimrc
 '4  18  25  ~/.vimrc
 '5  31  0  ~/.vimrc
@@ -105,8 +105,8 @@ $#
 '9  83  4  ~/scripts/csvcreator.sh
 
 # Jumplist (newest first):
--'  43  0  ~/.vimrc
 -'  1  0  ~/.vimrc
+-'  43  0  ~/.vimrc
 -'  37  0  ~/.vimrc
 -'  35  0  ~/.vimrc
 -'  18  25  ~/.vimrc
@@ -203,12 +203,11 @@ $#
 -'  13  187  ~/.ssh/known_hosts
 -'  26  259  ~/.ssh/known_hosts
 -'  24  253  ~/.ssh/known_hosts
--'  23  259  ~/.ssh/known_hosts
 
 # History of marks within files (newest to oldest):
 
 > ~/.vimrc
-	"	43	0
+	"	1	0
 	^	1	10
 	.	24	0
 	+	1	0
