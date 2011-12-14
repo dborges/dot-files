@@ -71,46 +71,46 @@ $#
 	touch $filename
 	echo "$DNU" >> $filename
 	
-"1	LINE	0
-	
+""1	LINE	0
+	autocmd FileType c set omnifunc=ccomplete#Complete
 "2	LINE	0
-	:hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+	autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 "3	LINE	0
-	:hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+	autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 "4	LINE	0
-	cmap w!! %!sudo tee > /dev/null %
+	autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 "5	LINE	0
-	syntax on
+	autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 "6	LINE	0
-	set number
+	autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 "7	LINE	0
-	:nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
+	autocmd FileType python set omnifunc=pythoncomplete#Complete
 "8	LINE	0
-	set cursorline cursorcolumn
+	"endif
 "9	LINE	0
-	au WinEnter * set cursorline cursorcolumn
-""-	CHAR	0
+	"  source ~/.vimrc.local
+"-	CHAR	0
 	#
 
 # File marks:
-'0  1  15  ~/home/.git/COMMIT_EDITMSG
-'1  1  0  ~/.ssh/id_rsa
+'0  43  0  ~/.vimrc
+'1  37  0  ~/.vimrc
 '2  1  9  ~/.vimrc
-'3  45  0  ~/.vimrc
+'3  35  0  ~/.vimrc
 '4  18  25  ~/.vimrc
-'5  41  0  ~/.vimrc
+'5  31  0  ~/.vimrc
 '6  3  0  ~/.vimrc
 '7  1  0  ~/.vim
 '8  1  13  ~/.vimrc
 '9  83  4  ~/scripts/csvcreator.sh
 
 # Jumplist (newest first):
--'  1  15  ~/home/.git/COMMIT_EDITMSG
--'  1  0  ~/.ssh/id_rsa
--'  1  9  ~/.vimrc
--'  45  0  ~/.vimrc
+-'  43  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  37  0  ~/.vimrc
+-'  35  0  ~/.vimrc
 -'  18  25  ~/.vimrc
--'  41  0  ~/.vimrc
+-'  31  0  ~/.vimrc
 -'  3  0  ~/.vimrc
 -'  1  0  ~/.vim
 -'  83  4  ~/scripts/csvcreator.sh
@@ -207,6 +207,21 @@ $#
 
 # History of marks within files (newest to oldest):
 
+> ~/.vimrc
+	"	43	0
+	^	1	10
+	.	24	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	44	0
+	+	1	5
+	+	3	0
+	+	1	10
+	+	24	0
+
 > ~/home/.git/COMMIT_EDITMSG
 	"	1	15
 	^	1	16
@@ -215,20 +230,6 @@ $#
 
 > ~/.ssh/id_rsa
 	"	1	0
-
-> ~/.vimrc
-	"	1	9
-	^	1	10
-	.	1	10
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	54	0
-	+	1	5
-	+	3	0
-	+	1	10
 
 > /usr/share/vim/vim72/doc/version7.txt
 	"	380	44
