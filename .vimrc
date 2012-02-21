@@ -1,4 +1,3 @@
-set number
 set nocompatible                                                                                                                                       
 call pathogen#infect()
 set ruler
@@ -41,3 +40,4 @@ if has("statusline") && !&cp
  set statusline+=Buf:#%n
  set statusline+=[%b][0x%B]
 endif
+color mustang
