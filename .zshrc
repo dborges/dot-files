@@ -89,4 +89,4 @@ alias l='ls -CF'
 #HDHomeRun
 #alias homerunhc='ssh root@69.4.57.153'
 
-alias ssh="clear;echo 'Good for you...';ssh"
+#alias ssh="clear;echo 'Good for you...';ssh"
